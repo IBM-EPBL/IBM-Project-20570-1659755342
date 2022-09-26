@@ -1,0 +1,10 @@
+import random
+temp=random.randint(0,130)
+humidity=random.randint(0,50)
+print(temp)
+print(humidity)
+while((temp>0) and (humidity>0)):
+    if((temp>80) and (humidity>30)):
+        print("High temperature")
+    else:
+        print("Normal")
